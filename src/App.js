@@ -1,16 +1,14 @@
 import React from 'react';
-import HouseList from './HouseList';
-import CreateHouseForm from './CreateHouseForm';
+import './App.css';
+import ResourceList from './components/ResourceList';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <h1>Houses</h1>
-      <CreateHouseForm />
-      <HouseList />
+    <div className="App">
+      <h1>Resource Manager</h1>
+      <ResourceList />
     </div>
   );
-};
+}
 
 export default App;
-
